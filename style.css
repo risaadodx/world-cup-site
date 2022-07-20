@@ -129,6 +129,11 @@ body{
     display: flex;
     justify-content: space-around;
 }
+.view-all{
+    visibility: hidden;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
 /*------- footer style start -------- */
 footer{
     background-color: #161616;
@@ -370,12 +375,11 @@ footer ul{
     padding-right: 10%;
     padding-bottom: 50px;
 }
-.social{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 40%;
-    padding-right: 40%;
-    padding-bottom: 130px;
+.hidden-tablet{
+    display: none;
+}
+.view-all{
+    visibility: visible;
 }
 
 }
