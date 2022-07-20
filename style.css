@@ -1,0 +1,123 @@
+/*----- fonts-----  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/*----- common styles------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-------- banner style-------  */
+.banner{
+    background-color: #161616;
+    color: #FFFFFF;
+    width: 1321px;
+    height: 646px;
+    border-radius: 30px;
+    display: flex;
+    margin-top: 50px ;
+    margin-left: 105px;
+    margin-bottom: 130px;
+}
+.half-width{
+    width: 40%;
+}
+#banner-txt{
+    margin-top: 111px;
+    margin-left: 106px;
+}
+.banner h1{
+    font-size: 70px;
+    margin: 0;
+    font-weight: 700;
+    line-height: 80px;
+}
+.banner p{
+    font-size: 16px;
+    padding-top: 20px;
+    margin: 0;
+    margin-bottom: 50px;
+    line-height: 26px;
+}
+.half-width img{
+    width: 100%;
+    margin-top: 33px;
+    width: 581px;
+    height: 613px;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 105px;
+}
+
+.watch-btn{
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    color: #FFFFFF;
+    width: 187px;
+    height: 56px;
+    text-decoration: none;
+
+}
+/* -------main section--------  */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 24px;
+}
+.blog{
+    box-sizing: border-box;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    width: 312px;
+    height: 362px;
+}
+.blog-details{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.blog img{
+    width: 312px;
+    height: 175px;
+}
+.blog h3{
+    font-size: 18px;
+}
+.blog-btn-bg{
+    background-color: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 30px;
+    padding: 30px;
+    margin-right: 24px;
+    width: 250px;
+    height: 230px;
+}
+.blog-btn{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    text-align: center;
+    text-decoration: none;
+}
+.blog .fa-clock{
+    margin-right: 10px;
+}
+.blog .fa-message{
+    margin-right: 10px;
+}
+.transfer-btn{
+    border: 1px solid #161616;
+    border-radius: 5px;
+    padding: 4px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.blog-info{
+    display: flex;
+    justify-content: space-around;
+}
